@@ -14,31 +14,23 @@
     <icon src="icon.png" />           
     <content src="index.html" />
                
-	<preference name="orientation" value="portrait" />
-	<preference name="android-build-tool" value="gradle" />
-	<preference name="permissions" value="none"/>
-		
-	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
+    <preference name="orientation" value="portrait" />
+    <preference name="android-build-tool" value="gradle" />
+    <preference name="permissions" value="none"/>
+        
+    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
     <gap:plugin name="phonegap-plugin-push" source="npm" spec="1.5.3" />
-<<<<<<< HEAD
-    <gap:plugin name="cordova-plugin-device" source="npm" />
-	<gap:plugin name="cordova-plugin-inappbrowser" />		
-	<gap:plugin name="cordova-plugin-splashscreen" />	
-	<gap:plugin name="cordova-plugin-geolocation" />
-	<gap:plugin name="cordova-plugin-network-information" />
-=======
-    <gap:plugin name="cordova-plugin-device" source="npm" />		
-	<gap:plugin name="cordova-plugin-inappbrowser" source="npm"  />	
-	<gap:plugin name="cordova-plugin-splashscreen" source="npm" />
-	<gap:plugin name="cordova-plugin-geolocation" source="npm" /> 
-	<gap:plugin name="cordova-plugin-network-information" source="npm" /> 
-	
->>>>>>> 2c7cfe00a1a1388b17b24fcaa5fb039f7cc97a39
+    <gap:plugin name="cordova-plugin-device" source="npm" />        
+    <gap:plugin name="cordova-plugin-inappbrowser" source="npm"  /> 
+    <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
+    <gap:plugin name="cordova-plugin-geolocation" source="npm" /> 
+    <gap:plugin name="cordova-plugin-network-information" source="npm" /> 
+    
 
-	<gap:splash src="splash.png" />
-	<preference name="AutoHideSplashScreen" value="false" />  	
+    <gap:splash src="splash.png" />
+    <preference name="AutoHideSplashScreen" value="false" />    
     <preference name="SplashScreenDelay" value="10000" />  
-	
+    
     <access origin="*" />
     <access origin="tel:*" launch-external="yes" />
     
