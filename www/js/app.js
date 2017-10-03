@@ -994,7 +994,6 @@ function displayOrderDetails(data)
           
      html+=TPLorderRow( getTrans("TRN Type",'trn_type') ,  data.trans_type);
      html+=TPLorderRow( getTrans("Payment Type",'payment_type') ,  data.payment_type);
-     html+=TPLorderRow( getTrans("Payment Name",'payment_name') ,  data.payment_name);
      
      if ( data.trans_type_raw=="delivery"){
         html+=TPLorderRow( getTrans("Delivery Date",'delivery_date') ,  data.delivery_date);     
